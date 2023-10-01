@@ -44,12 +44,12 @@ if __name__ == '__main__':
         return '\n'.join(assistant_description) + '\n\n' + assisstant_information
 
     @logger.catch
-    @bot.message_handler(commands=['start', 'help'])
+    @bot.message_handler(commands=['start'])
     async def send_welcome(message):
         introduction = "Welcome to Resume AI Bot!\n\n" \
-                       "I have the information about professional experience of Nikita Parfenov.\n" \
-                       "You can ask your questions either by voice or text.\n" \
-                       "Chat maintains different languages.\n\n" \
+                       "I have the information about professional experience of Nikita Parfenov 👨‍💻\n" \
+                       "You can ask your questions either by voice 🔊 or text 📝\n" \
+                       "Chat maintains different languages 🇺🇸🇪🇸🇩🇪🇫🇷🇮🇹🇷🇺...\n\n" \
                        "Enjoy! :)"
         output_message = await bot.send_message(message.chat.id, introduction)
         await bot.delete_message(message.chat.id, message.message_id)
