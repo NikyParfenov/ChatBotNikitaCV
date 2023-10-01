@@ -5,7 +5,7 @@ import requests
 import urllib.request
 from telebot.async_telebot import AsyncTeleBot
 from datetime import datetime
-from telebot import apihelper, util
+from telebot import apihelper, util, types
 from dotenv import load_dotenv
 from loguru import logger
 from utils.logs_customize import logs_customize
@@ -27,10 +27,19 @@ if __name__ == '__main__':
     telegram_token = os.environ.get('TELEBOT_TOKEN')
     bot = AsyncTeleBot(telegram_token)
 
+    markup = types.ReplyKeyboardMarkup()
+    education = types.KeyboardButton('Education')
+    experience = types.KeyboardButton('Experience')
+    stack = types.KeyboardButton('Stack')
+    contacts = types.KeyboardButton('Contacts')
+    resume = types.KeyboardButton('Short CV')
+    markup.row(education, experience, stack)
+    markup.row(contacts, resume)
+
     def extract_arg(arg):
         return arg.split()[1:]
 
-    def assistant_content(path: str='Information.txt'):
+    def assistant_content(path: str = 'Information.txt'):
         with open(path, 'r') as file:
             assisstant_information = file.read()
         assistant_description = [
@@ -44,23 +53,18 @@ if __name__ == '__main__':
         return '\n'.join(assistant_description) + '\n\n' + assisstant_information
 
     @logger.catch
-    @bot.message_handler(commands=['start'])
+    @bot.message_handler(commands=['start', 'help'])
     async def send_welcome(message):
         introduction = "Welcome to Resume AI Bot!\n\n" \
                        "I have the information about professional experience of Nikita Parfenov 👨‍💻\n" \
-                       "You can ask your questions either by voice 🔊 or text 📝\n" \
+                       "You can ask questions about:\n- education\n- experience\n- programming stack\n- contacts\n... and other\n\n" \
+                       "You can choose predefined questions by clicking a button below or ask your own question.\n" \
+                       "You can ask your questions either by voice 🔊 or text 📝\n\n" \
                        "Chat maintains different languages 🇺🇸🇪🇸🇩🇪🇫🇷🇮🇹🇷🇺...\n\n" \
-                       "Enjoy! :)"
-        output_message = await bot.send_message(message.chat.id, introduction)
+                       "Enjoy! :)\n\n" \
+                       "Predefined questions:"
+        await bot.send_message(message.chat.id, introduction, reply_markup=markup)
         await bot.delete_message(message.chat.id, message.message_id)
-
-        db_data = {
-            "chat_id": message.chat.id,
-            "message_id": output_message.message_id,
-            "role": MessageRoles.ASSISTANT,
-            "content": introduction,
-        }
-        database_action(action=DBActions.ADD_MESSAGE, **db_data)
 
     @logger.catch
     @bot.message_handler(commands=['get_chats'])
