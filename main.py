@@ -57,12 +57,18 @@ if __name__ == '__main__':
     async def send_welcome(message):
         introduction = "Welcome to Resume AI Bot!\n\n" \
                        "I have the information about professional experience of Nikita Parfenov 👨‍💻\n" \
-                       "You can ask questions about:\n- education\n- experience\n- programming stack\n- contacts\n... and other\n\n" \
+                       "You can ask questions about:\n" \
+                       "- education\n" \
+                       "- experience\n" \
+                       "- programming stack\n" \
+                       "- contacts\n" \
+                       "- hobbies\n" \
+                       "- area of interests\n" \
+                       "... and other\n\n" \
                        "You can choose predefined questions by clicking a button below or ask your own question.\n" \
                        "You can ask your questions either by voice 🔊 or text 📝\n\n" \
                        "Chat maintains different languages 🇺🇸🇪🇸🇩🇪🇫🇷🇮🇹🇷🇺...\n\n" \
-                       "Enjoy! :)\n\n" \
-                       "Predefined questions:"
+                       "Enjoy! :)"
         await bot.send_message(message.chat.id, introduction, reply_markup=markup)
         await bot.delete_message(message.chat.id, message.message_id)
 
