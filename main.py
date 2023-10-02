@@ -166,4 +166,4 @@ if __name__ == '__main__':
         }
         database_action(action=DBActions.ADD_MESSAGE, **db_data)
 
-    asyncio.run(bot.polling())
+    asyncio.run(bot.infinity_polling(timeout=10, long_polling_timeout=5))
