@@ -1,0 +1,254 @@
+TITLE: Use & Care Manual
+
+Subtitle: 1. IMPORTANT SAFETY INFORMATION. READ ALL INSTRUCTIONS BEFORE USING.
+Safety and energy conservation are factors to be considered when selecting the water temperature setting of water heater. Water temperatures above 125°F (52°C) can cause severe burns or death from scalding. Be sure to read and follow the warnings outlined on the label pictured below. This label is also located on the water heater near the thermistor access panel.
+
+Chart:
+Time/Temperature Relationship in Scalds
+Temperature - Time To Produce a Serious Burn
+120°F (49°C) - More than 5 minutes
+125°F (52°C) - 1.5 to 2 minutes
+130°F (54°C) - About 30 seconds
+135°F (57°C) - About 10 seconds
+140°F (60°C) - Less than 5 seconds
+145°F (63°C) - Less than 3 seconds
+150°F (65°C) - About 1.5 seconds
+155°F (68°C) - About 1 second
+
+The chart shown above may be used as a guide in determining the proper water temperature for your home.
+DANGER: Households with small children, disabled, or elderly persons may require a 120°F (49°C) or lower thermostat setting to prevent contact with “HOT” water. The temperature of the water in the heater is regulated by the water heater interface control. To comply with safety regulations the temperature was set at 120°F (49°C) before the water heater was shipped from the factory. The illustration below shows the water temperature setting. Refer to the Operating Instructions in this manual for detailedinstructions in how to adjust the water temperature.
+
+NOTICE: Mixing valves are recommended for reducing point of use water temperature by mixing hot and cold water in branch water lines. It is recommended that a mixing valve complying with the Standard for Temperature Actuated Mixing Valves for Hot Water Distribution Systems, ASSE 1017 be installed. See page 16 for more details and contact a licensed plumber or the local plumbing authority for further information. When used in demand response applications a thermostatic mixing valve conforming to ASSE 1017 shall be installed on the hot water supply line following all manufacturer installation instructions.
+
+WARNING: For your safety, the information in this manual must be followed to minimize the risk of fire or explosion, electric shock, or to prevent property damage, personal injury, or loss of life. Be sure to read and understand the entire Use and Care Manual before attempting to install or operatethis water heater. It may save you time and cost. Pay particular attention to the Safety Instructions. Failure to follow these warnings could result in serious bodily injury or death. Should you have problems understanding the instructions in this manual, or have any questions, STOP, and get help from a qualified service technician, or the local electric utility.
+
+FOR INSTALLATIONS IN THE STATE OF CALIFORNIA: California Law requires that all new and replacement water heaters, and all existing residential water heaters, must be braced, anchored, or strapped to resist falling or horizontal displacement due to
+earthquake motion. At a minimum, any water heater shall be secured in accordance with the California Plumbing Code, or modifications made thereto by a city, county, or city and county pursuant to Section 17958.5. Generic instructions for California titled “Guidelines for Earthquake Bracing Residential Water Heaters” can be obtained by:
+• Writing the California, Department of General Services, Division of State Architect, 1102 Q Street, Suite 5100, Sacramento, CA 95814
+• Calling (916) 445-8100
+• Following web address: https://www.dgs.ca.gov/-/media/Divisions/DSA/Publications/gas_shutoff/waterheaterbracing
+
+SAFETY PRECAUTIONS: Have the installer show you the location of the circuit breaker and how to shut it off if necessary. Turn off the circuit breaker if the water heater has been subjected to overheating, fire, flood, physical damage or if the ECO (temperature limiting control) fails to shut off.
+• Read this manual entirely before installing or operating the water heater.
+• Use this appliance only for its intended purpose as described in this Use and Care Manual.
+• Be sure your appliance is properly installed in accordance with local codes and the provided installation instructions.
+• DO NOT attempt to repair or replace any part of your water heater unless it is specifically recommended in this manual. All other servicing should be referred to a qualified technician.
+• DO NOT attempt to repair or replace the compressor, refrigerant, or any part associated with the sealed refrigerant system.
+• DO NOT turn on the electrical supply or operate this water heater unless it is completely full of water.
+• WARNING: Disconnect all power to unit before starting maintenance. Failure to do so can cause electrical shock resulting in severe personal injury or death.
+• WARNING: FLAMMABLE CONTENTS UNDER PRESSURE. The compressor is not a serviceable part. The compressor wiring terminals may arc allowing pressurized refrigerant and oil to escape, ignite and cause serious bodily injury, severe burns or death.
+
+Refrigerant: This Hybrid Water Heater is factory charged with an environmentally friendly, non-chlorinated refrigerant, R134A. This refrigerant has zero ozone depletion potential.
+
+
+Subtitle: 2.INSTALLING THE WATER HEATER
+**Local Installation Regulations:**
+This water heater must be installed in accordance with these instructions, local codes, utility codes, utility company requirements or, in the absence of local codes, the latest edition of the National Electrical Code. It is available from some local libraries or can be purchased from the National Fire Protection Association, Batterymarch Park, Quincy, MA 02269 as booklet ANSI/NFPA 70. Canadian installations should refer to CSA22.1, a copy can be purchased from the Canadian Standards Association, 5050 Spectrum Way, Mississauga, ONT L4W 5N6
+
+**Location:**
+Locate the water heater in a clean dry area as near as practical to the area of greatest heated water demand. Long un-insulated hot water lines can waste energy and water. Place the water heater in such a manner that the thermistor and element access panels can be removed to permit inspection and servicing such as removal of elements or checking controls. The water heater and water lines
+should be protected from freezing temperatures. DO NOT install the water heater in outdoor, unprotected areas. Make certain the floor underneath the water heater is strong enough to sufficiently support the weight of the water heater once it is filled with water. Floor isolation kit is recommended to minimize vibrations (where applicable).
+NOTICE: Auxiliary drain pan MUST conform to local codes. Drain Pan Kits are available from the store where the water heater was purchased, or any water heater distributor. Drain Pan should not obstruct cold inlet or drain valve.
+CAUTION: The water heater should not be located in an area where leakage of the tank or connections will result in damage to the area adjacent to it or to lower floors of the structure. Where such areas cannot be avoided, it is recommended that a suitable drain pan, adequately drained, be installed under the water heater.
+NOTICE: Installation in a confined space will lead to higher power consumption if adequate ventilation is not provided. It is recommended that the hybrid water heater be installed where ambient temperatures DO NOT exceed 145°F (63°C). Insufficient air exchange will result in increased energy consumption levels. Clearances: Rear - 0", Sides - 0",Top - 6"
+
+**Inspect Shipment:**
+Inspect the water heater for possible damage. Check the markings on the rating plate of the water heater to be certain the power supply corresponds to the water heater requirements. Rating plate is located on front of water heater.
+
+**Locations that provide optimal efficiency:**
+1) Heater: Not Ducted
+• Room size: Larger than 700 ft3 (e.g. 7' x 10' x 10'). Requirements: No additional ventilation needed.
+• Room size: Smaller than 700 ft3 (e.g. 7' x 10' x 10'). Requirements: Full louvered door OR two louvers top and bottom. See below.
+• Room: Small Closet. Requirements: Air gap under door equal to 18 in2 (0.75” clearance). Louver must be located the same height on door as  the air exhaust on heater. Heater air exhaust must be positioned towards louver within one foot of door
+2) Heater: Ducted with inlet OR outlet duct
+• Room size: Any size room. Requirements: Air gap under door equal to 18 in2 (0.75” clearance)
+3) Heater: Ducted with inlet AND outlet duct
+• Room size: Any size room. Requirements: No additional ventilation needed.
+NOTICE: If air temperature in installed location drops more than 15°F (8°C) during heating, air circulationis insufficient for efficient operation. Utilize ducting to direct cold exhaust air to another location.
+
+**Thermal Expansion:**
+Determine if a check valve exists in the inlet water line. Check with your local water utility. It may have been installed in the cold water line as a separate back flow preventer, or it may be part of a pressure reducing valve, water meter or water softener. A check valve located in the cold water inlet line can cause what is referred to as a “closed water system”. A cold water inlet line with no check valve or back flow prevention device is referred to as an “open” water system. As water is heated, it expands in volume and creates an increase in the pressure within the water system. This action is referred to as “thermal expansion”. In an “open” water system, expanding water which exceeds the capacity of the water heater flows back into the city main where the pressure is easily dissipated. A “closed water system”, however, prevents the expanding water from flowing back into the main supply line, and the result of “thermal expansion” can create a rapid and dangerous pressure increase in the water heater and system piping. This rapid pressure increase can quickly reach the safety setting of the relief valve, causing it to operate during each heating cycle. Thermal expansion, and the resulting rapid
+and repeated expansion and contraction of components in the water heater and piping system can cause premature failure of the relief valve, and possibly the heater itself. Replacing the relief valve WILL NOT correct the problem! The suggested method of controlling thermal expansion is to install an expansion tank in the cold water line between the water heater and the check valve. The expansion tank is designed with an air cushion built in that compresses as the system pressure increases, thereby relieving the over pressure condition and eliminating the repeated operation of the relief valve. Other methods of controlling thermal expansion are also available. Contact your installing contractor, water supplier or plumbing inspector for additional information regarding this subject.
+NOTICE: The inlet and outlet water nipple remain with the black markings pointed up.
+
+**Water Supply Connections:**
+Refer to the illustration on the next page for suggested typical installation. The installation of flexible connectors is recommended on the hot and cold water connections. Flexible connections provide vibration isolation and allow the water heater
+to be easily disconnected for servicing if necessary. The HOT and COLD water connections are clearly marked and are 3/4in. NPT on all models. Install a shut-off valve in the cold water line near the water heater.
+NOTICE: DO NOT apply heat to the HOT or COLD water connections. If sweat connections are used, sweat tubing toadapter before fitting adapter to the water connections on heater. Any heat applied to the water supply fittings will permanently damage the dip tube and/or heat traps.
+
+**Condensate Drains:**
+Consult local codes or ordinances for specific requirements.
+IMPORTANT: When making drain fitting connections to the drain tubing, use a thin layer of piping tape or silicone and install hand tight.
+IMPORTANT: When making drain fitting connections to the drain tubing, DO NOT overtighten. Overtightening fittings can split pipe connections on the drain pan.
+• This unit is equipped with a 3/4" NPT female primary condensate connection. Use MIP fittings for connections.
+• DO NOT reduce drain line size less than connection size provided on condensate drain.
+• All drain lines must be pitched downward away from the unit a minimum of 1/8" per foot of line to ensure proper drainage.
+• Drain lines must include a P-trap if connected to a sewer pipe.
+• If no drain is available, then a common condensate pump with a capacity no less than 2 gallon per day must be installed.
+• DO NOT allow condensate to drain into the water heater drain pan.
+• The drain line should be insulated where necessary to prevent sweating and damage due to condensate forming on the outside surface of the line.
+NOTICE: Condensate from this unit is not Acidic and is not required to be neutralized.
+
+**Relief Valve:**
+A new combination temperature and pressure relief valve, complying with the Standard for Relief Valves for Hot Water Supply Systems, ANSI Z21.22/CSA 4.4, is factory installed and must remain in the opening provided and marked for the purpose on the water heater. No valve of any type should be installed between the relief valve and the tank.
+The btu/h rating of the relief valve must not be less than the input rating of the water heater as indicated on the rating label located on the front of the heater (1 watt=3.412 btu/h). Connect the outlet of the relief valve to a suitable open drain so that the discharge water cannot contact live electrical parts or persons and to eliminate potential water damage. Piping used should be of a type approved for hot water distribution. The discharge line must be no smaller than the outlet of
+the valve and must pitch downward from the valve to allow complete drainage (by gravity) of the relief valve and discharge line. The end of the discharge line should not be threaded or concealed and shouldbe protected from freezing. No valve of any type, restriction or reducer coupling should be installed in the discharge line.
+WARNING: The pressure rating of the relief valve must not exceed 150 PSI, the maximum working pressure of the water heater as marked on the rating plate.
+WARNING: DO NOT connect other plumbing to the T&P plumbing; it must go directly to a suitable open drain. DO NOT connect the T&P plumbing to the condensate plumbing. 
+
+**To Fill the Water Heater:**
+Make certain the drain valve on the water heater is completely closed. Open the shut-off valve in the cold water supply line. Open each hot water faucet slowly to allow the air to vent from the water heater and piping. A steady flow of water from the hot water faucet(s) indicates a full water heater.
+WARNING: DO NOT turn on the electrical supply or operate this water heater unless it is completely full of water. The tank must be full of water before water heater is turned on. The water heater warranty does not cover damage or failure resulting from operation with an empty or partially empty tank.
+
+**LeakGuard:**
+If the water heater is equipped with built-in leak detection and automatic water shut off valve. The leak detection device (LeakSenseTM) detects the presence of water andimmediately alerts the electronic control as the EcoNet app on the cellular phone. When water is detected, the electronic controls will shut down the heating elements and the automatic water shut off valve closes. 
+
+**Self Check:**
+The automatic water shut off valve has a self check feature which runs every 30 days once the water heater is powered on. This feature works by closing and reopening the automatic water shut off valve. In case the valve fails to reopen, the water heater will be DISABLED. The water heater gives alert when the automatic water shut off valve fails to close.
+
+**EcoNet™ Communication:**
+EcoNet™ communication is provided for integration with home automation, energy management, and demand response systems. Connectivity is provided through the via wireless (Wi-Fi).
+
+**Electrical Connections:**
+WARNING: Turn off electric power at the fuse box or service panel before making any electrical connections.
+Also, the ground connection must be completed before making line voltage connections. Failure to do so can result in electrical shock, severe personal injury or death. Disconnect all power to unit before starting maintenance. Failure to do so can cause electrical shock resulting in severe personal injury or death The unit must be grounded. Failure to do so can cause electrical shock resulting in severe personal injury or death. If the water heater has been subjected to fire, flood or physical damage, DO NOT operate the water heater again until it has been checked by a qualified service technician.
+NOTICE: DO NOT use this appliance if any part has been under water. Immediately call a qualified installer or service agency to replace a flooded water heater. DO NOT attempt to repair the unit! It must be replaced.
+A separate branch circuit with copper conductors, overcurrent protective device and suitable disconnecting means must be provided by a qualified electrician. All wiring must conform to local codes or latest edition of National Electrical Code ANSI/NFPA 70. The water heater is completely wired to the junction box inside jacket at the top front of the water heater. An opening for 1/2 in. or 3/4 in. electrical fitting is provided for field wiring connections. The voltage requirements and wattage load for the water heater are specified on the rating plate on the front of the water heater.
+The branch circuit wiring should include either:
+1) Metallic conduit or metallic sheathed cable approved for use as a grounding conductor and installed with fittings approved for the purpose.
+2) Non-metallic sheathed cable, metallic conduit or metallic sheathed cable not approved for use as a ground conductor shall include a separate conductor for grounding. It should be attached to the ground terminals of the water heater and the electrical distribution box.
+NOTICE: This guide recommends minimum branch circuit sizing and wire size based on National Electric Code. Refer to wiring diagrams (table below) in this manual for field wiring connections.
+
+Table. SINGLE PHASE WIRING
+Total Water Heater Wattage | Recommended Over Current Protection (Fuse or Circuit Breaker Amperage Rating) 240V | Copper Wire Size AWG based on NE.C. Table 310-16 (75˚C) 240V
+2250 | 15 | 14
+2750 | 15 | 14
+3000 | 20 | 12
+4000 | 25 | 10
+5000 | 30 | 10
+5500 | 30 | 10
+
+NOTE: When sizing the breaker and wire for over current protection, include an additional 500W to the upper element wattage rating. This will account for the maximum amperage draw of the compressor and fan motor.
+CAUTION: The presence of water in the piping and water heater does not provide sufficient conduction for a ground. Non-metallic piping, dielectric unions, flexible connectors etc. can cause the water heater to be electrically isolated.
+WARNING: DO NOT turn on the electrical supply or operate this water heater unless it is completely full of water.
+
+**Insulation Blankets:**
+Insulation blankets, available to the general public, for external use on electric water heaters are not necessary. The purpose of an insulation blanket is to reduce the standby heat loss encountered with storage tank heaters. This water heater
+meets or exceeds the National Appliance Energy Conservation Act standards with respect to insulation and standby loss requirements making an insulation blanket unnecessary. The manufacturer’s warranty does not cover any damage or defect caused by installation, attachment or use of any type of energy saving or other unapproved devices (other than those authorized by the manufacturer) into, onto or in conjunction with the water heater. The use of unauthorized energy saving devices may shorten the life of the water heater and may endanger life and property. The manufacturer disclaims any responsibility for such loss or injury resulting from the use of such unauthorized devices.
+WARNING: If local codes require external application of insulation blanket kits the manufacturer’s instructions included with the kit must be carefully followed.
+CAUTION: If local codes require the application of an external insulation blanket to this water heater, pay careful attention to the following so as not to restrict the proper function and operation of the water heater:
+• DO NOT cover the operating or warning labels attached to the water heater or attempt to relocate them on the exterior of insulation blanket.
+• DO NOT cover air openings on both sides of the water heater.
+• DO NOT cover the Controller Assembly, temperature and pressure relief valve or drain valve.
+• Inspect the insulation blanket frequently.
+
+**Ducting Requirements:**
+Always check with local building and HVAC codes before designing the duct system The water heater may be ducted to the outdoors or another space as described in these instructions. Ducting configurations that does not comply with these guidelines are not supported. DO NOT connect this water heater to existing duct work; it must be ducted separately from other appliances. Ducting approved for HVAC applications is required. Ducting must be adequately supported along both vertical and horizontal lengths. UL Certified terminations must be used for ducting to the outside. These terminations have been evaluated to ensure there is sufficient protection from rain water entry and resistance to air flow is minimized. Indoor registers approved for HVAC applications is required. Rigid ducting must be isolated from floor joists or other structural members to minimize the transmission of noise and vibration. A short section (12 inch minimum) of flexible duct must be used between the water heater and rigid ducting as an isolation method. Every foot of flexible ducting counts as three feet of rigid ducting. Ducting must be insulated per HVAC codes (to prevent condensation). Ensure cold air exhaust is sufficiently away from structures to prevent condensation on surfaces. Maximum heater performance is obtained by lowering the resistance to air flow (regular filter maintenance is beneficial) and providing the unit with warm moist air. Considerations when planning the duct system:
+• Run the ducting the most direct route possible.
+• Limit the number of elbows/bends.
+• Use the largest duct size possible.
+• Use the largest termination possible.
+• Consider placement and direction of terminations (reduce recirculation of exhaust into the intake).
+Calculated length of duct is the length on the inlet plus the length on the outlet. Any combination of duct lengths on the inlet and outlet is supported up to the maximum duct length
+
+**Duct System Configuration:**
+The inlet and outlet ducting connections on the water heater accepts 8 inch diameter ducting. No additional adaptors are needed. 7 inch, 6 inch, 5 inch diameter ducting is supported. Table 1 lists the total feet of ducting allowed. For duct diameters smaller than 8 inch diameter, Table 1 takes into account the duct reducer(s) and up to 10 feet of 8 inch rigid ducting (two elbows) before the duct reducer(s) at the unit. Duct Reducers must be installed within 10 feet (two elbows) of the unit or within 2 feet of the end of the duct.
+
+Table 1.- Maximum Duct Length.
+Duct Type / Diameter | 8" | 7" | 6" | 5"
+Rigid | 340' | 160' | 65' | 17'
+Flexible | 125' | 65' | 25' | -
+
+**Equivalent feet for Duct Accessories:**
+Elbows/Bends.
+Rigid duct elbows and flex bends greater than 45° is considered an elbow. Flexible ducting bends’ inner radius cannot be less than its diameter. If bends with tighter radiuses are needed, a rigid elbow must be used. Maximum number of elbows/bends allowed are shown in [brackets] in Table 2. Terminations/Registers Table 2 equivalent feet for terminations includes the rodent screen. For terminations and registers with smaller diameters than the duct diameter, Table 2 accounts
+for the duct reducer and termination/register. Smaller diameter terminations and registers with more than a 2 ft. connection is not supported.
+Damper.
+If ducting to the outside using an exhaust duct only (no intake duct), an approved Rheem damper should be installed no further than 10 ft. of rigid ducting total (two elbows equivalent) from the unit. This prevents outside air from coming into the living space. If ducting air from the outside to the inlet of the heater, no provision is made to prevent outside air from flowing into the living space
+
+Table 2.- Equivalent feet for Duct Accessories.
+Description | 8" | 7" | 6" | 5"
+Elbows/Flexible Bends (Each) [Maximum Allowed] | 5' [8] | 5’ [6] | 5’ [4] | 5’ [2]
+8 inch UL Certified Termination for ducting outside (Each) | 5' | 5' | 5' | 5'
+Reduced diameter UL Certified Termination for ducting outside (Each) | N/A | 10' | 15' | 20'
+8 inch Register for ducting inside (Each) | 5' | 5' | 5' | 5'
+Reduced diameter Register for ducting inside (Each) | N/A | 10' | 15' | 20'
+Rodent Screen (must be greater than 83% open area) (Each) | 1' | 1' | 1' | 1'
+Rheem approved 8" diameter Duct Damper | 25' | 20' | 10' | 5'
+
+Accessory Kits
+Part Number | Description | User For
+SP20882 | Earthquake Isolation Kit for Hybrid Water Heater. | Installations in Seismic Regions.
+SP20883 | Vibration Isolation Kit for Hybrid Water Heater. | Installation on Non-Concrete floors.
+SP20884 | 8” Dia. UL Certified Termination kit. | Termination to the outside or to attic with 8" diameter.
+SP20885 | 7” Dia. UL Certified Termination kit. | Termination to the outside or to attic with 7" diameter.
+SP20886 | 6” Dia. UL Certified Termination kit. | Termination to the outside or to attic with 6" diameter.
+SP20887 | 5” Dia. UL Certified Termination kit. | Termination to the outside or to attic with 5" diameter.
+SP20888 | 8" Rheem Approved Damper Kit. | Exhaust only to the outside Ducting Configuration (No inlet Duct).
+SP20889 | 25’ Flexible 8” dia. duct kit. | For up to 25' of Ducting.
+SP20890 | Rigid Elbow Duct Kit. | Installation in tight places where space needs to be minimized.
+SP17829 | Outlet Duct Adaptor Kit | Use for exhaust cool and dry air to another place inside or outside the house ( use where applicable )
+AP19134 | Leak Sensor | Use for water leak sensor ( for select models only )
+SP21105 | Inlet Duct Adaptor Kit | Use for bring warm air from another place inside or outside the house ( use where applicable )
+SP21111 | Gen V leak sensor and shut off valve kit | Use for preventing leak and automatic water shut off valve ( for select models only )
+
+**Ducting Example:**
+1) Exhaust/Inlet or both? Both, Inlet and Outlet
+2) Ducting to outside of building or another room? Outside building.
+3) Length of duct from water heater to termination? 20 ft.
+4) Flexible or Rigid ducting? Flexible.
+5) Diameter of ducting used? 8 in. Diameter
+6) Diameter of wall penetrations? 5 in. Diameter
+7) Number of elbows/bends? 3 Total – One on inlet and Two on Outlet
+I. Does calculated ducting length exceed maximum allowable table?
+ a. 20 ft. (Outlet duct length)
+ b. 10 ft. (1 rigid elbow and 1 bend on outlet)
+ c. 20 ft. (reduced diameter termination outlet)
+ d. 20 ft. (Inlet duct length)
+ e. 5 ft. (1 Bend on inlet)
+ f. 20 ft. (reduced diameter termination inlet)
+ g. Total = 20+10+20+20+5+20 = 95 ft.
+Using flexible 8 in. diameter duct, the maximum duct length allowed is 125 ft.; therefore, because 95 ft. is less than 125 ft., this is an acceptable ducting configuration. Accessory Kits SP20887 (2 Kits), SP20889 (2 Kits) and SP20890 (1 Kit) are available for this installation.
+
+Horizontal Duct Installation: Once the duct terminal location has been determined, make a hole through the exterior wall to accommodate the UL Certified Termination. Termination must exit exterior wall horizontally only. Complete rest of the duct pipe installation to the water heater’s duct connector fitting. If necessary, support horizontal run as previously mentioned.
+
+
+**Installation Checklist:**
+1. Water Heater Location:
+• Close to area of heated water demand.
+• Indoors and protected from moisture, wet conditions, freezing temperatures (below 32°F (0°C)) and High temperatures (above 140°F (60°C)).
+• Area free of flammable vapors.
+• Provisions for Air Circulation (Louvered doors on ducting).
+• Provisions made to protect area from water damage.
+• Sufficient room to service heater.
+• Six inches (6") of clearance from ceiling to top of Hybrid Water Heater to allow for filter maintenance.
+• Access to condensate disposal.
+• Vibration Isolation Kit (Non-Concrete floors).
+• Hybrid seismic Kit (if required)
+2. Water Supply:
+• Water heater completely filled with water.
+• Air purged from water heater and piping.
+• Water connections tight and free of leaks.
+• Flexible water connections.
+3. Relief Valve:
+• Temperature and Pressure Relief Valve properly installed and discharge line run to open drain.
+• Discharge line protected from freezing.
+4. Wiring:
+• Power Supply voltage agrees with water heater rating plate.
+• Branch circuit wire and fusing or circuit breaker of proper size. (Recommended 15 amp & 30 amp breaker for select models).
+• Electrical connections tight and unit properly grounded.
+• 10 gauge wire.
+5. Condensate Lines:
+• Condensate lines from heat pump installed correctly.
+• Condensate lines from heat pump run to a suitable drain location.
+6. Ducting:
+• HVAC approved ducting.
+• Calculated length of duct no greater than maximum allowed.
+• UL Certified terminations (For ducting to the outside).
+• Insulated duct.
+• Ducting adequately supported.
+• Ducting adequately isolated from structure
+7. Shutoff Valve:
+• Make sure valve is open condition.
+8. Leak Sensor:
+• Make sure sensor is dry and doesn't touch the water during installation.

@@ -2,13 +2,13 @@ version: '3.3'
 
 services:
   postgresql:
-    image: postgres:14
+    image: postgres:15
     volumes:
-      - postgres_vol:/var/lib/postgresql/data/
+      - postgres_vol:/var/lib/postgresql15/data/
     environment:
       - POSTGRES_PASSWORD=adminpostgres
       - POSTGRES_USER=postgres
-      - POSTGRES_DB=CVMessages
+      - POSTGRES_DB=RheemCSmessages
     ports:
       - "5432:5432"
     healthcheck:
