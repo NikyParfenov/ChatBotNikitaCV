@@ -213,7 +213,7 @@ Using flexible 8 in. diameter duct, the maximum duct length allowed is 125 ft.; 
 Horizontal Duct Installation: Once the duct terminal location has been determined, make a hole through the exterior wall to accommodate the UL Certified Termination. Termination must exit exterior wall horizontally only. Complete rest of the duct pipe installation to the water heater’s duct connector fitting. If necessary, support horizontal run as previously mentioned.
 
 
-**Installation Checklist:**
+**Installation checklist/step-by-step instruction:**
 1. Water Heater Location:
 • Close to area of heated water demand.
 • Indoors and protected from moisture, wet conditions, freezing temperatures (below 32°F (0°C)) and High temperatures (above 140°F (60°C)).
