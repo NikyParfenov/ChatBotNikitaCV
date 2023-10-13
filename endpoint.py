@@ -51,9 +51,10 @@ def service_endpoint(data: Data):
     database_action(action=DBActions.ADD_MESSAGE, **db_data)
     return JSONResponse(content={'response': response})
 
+
 @app.post('/')
-def test_response():
-    return JSONResponse(content={'response': 'Test completed!'})
+def test_response(data: Data):
+    return JSONResponse(content={'response': f'Your request: {data.content}'})
 
 # if __name__ == "__main__":
 #     uvicorn.run("main:app", host="127.0.0.1", port=8080, reload=True)
