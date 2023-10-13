@@ -13,6 +13,7 @@ from context import assistant_content
 
 class Data(BaseModel):
     content: str
+    chat_id: int
 
 
 app = FastAPI()
@@ -27,7 +28,7 @@ openai.api_key = os.environ.get('OPENAI_API_KEY')
 @app.post('/api/upload-text/')
 def service_endpoint(data: Data):
     db_data = {
-        "chat_id": 0,
+        "chat_id": data.chat_id,
         "message_id": 0,
         "role": MessageRoles.USER,
         "content": data.content,
@@ -43,7 +44,7 @@ def service_endpoint(data: Data):
     response = gpt_completion(conversation=chat_context)
 
     db_data = {
-        "chat_id": 0,
+        "chat_id": data.chat_id,
         "message_id": 0,
         "role": MessageRoles.ASSISTANT,
         "content": response,
