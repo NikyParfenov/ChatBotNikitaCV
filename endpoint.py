@@ -34,7 +34,7 @@ def service_endpoint(data: Data):
     }
     database_action(action=DBActions.ADD_MESSAGE, **db_data)
 
-    db_messages = database_action(action=DBActions.GET_MESSAGES, chat_id=message.chat.id)
+    db_messages = database_action(action=DBActions.GET_MESSAGES, chat_id=0)
     msg_list = []
     for msg in db_messages:
         msg_list.append(msg.to_openai())
@@ -53,7 +53,7 @@ def service_endpoint(data: Data):
 
 
 @app.post('/')
-def test_response(data: Data):
+def test_server_response(data: Data):
     return JSONResponse(content={'response': f'Your request: {data.content}'})
 
 # if __name__ == "__main__":
