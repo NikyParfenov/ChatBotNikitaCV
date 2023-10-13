@@ -8,7 +8,7 @@ def gpt_completion(
         conversation: List[dict[str]],
         temp: float = 0.9,
         model: str = "gpt-3.5-turbo-16k",  # "gpt-3.5-turbo", "gpt-4"
-        tokens: int = 2048,
+        tokens: int = 1536,
 ) -> str:
 
     response = openai.ChatCompletion.create(

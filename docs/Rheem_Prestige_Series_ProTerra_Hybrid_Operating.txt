@@ -1,0 +1,25 @@
+TITLE: Operating the water heater
+
+Subtitle_1: Safety Precautions
+• Disconnect all power to water heater if it has been subjected to over heating, fire, flood, physical damage.
+• DO NOT turn on water heater unless it is filled with water.
+• DO NOT turn on water heater if cold water supply shut-off valve is closed.
+• If there is any difficulty in understanding or following the Operating Instructions or the Care and Cleaning section, it is recommended that a qualified person or serviceman perform the work.
+
+CAUTION: Hydrogen gas can be produced in a hot water system served by this water heater that has not been used for a long period of time (generally two weeks or more). HYDROGEN GAS IS EXTREMELY FLAMMABLE!! To dissipate such gas and to reduce risk of injury, it is recommended that the hot water faucet be opened for several minutes at the kitchen sink before using any electrical appliance connected to the hot water system. If hydrogen is present, there will be an unusual sound such as air escaping through the pipe as the water begins to flow. DO NOT smoke or use an open flame near the faucet at the time it is open.
+
+Subtitle_2: Safety Controls
+The water heater is equipped with a temperature limiting control (ECO) that is located above the upper heating element in contact with the tank surface. If for any reason the water temperature becomes excessively high, the temperature limiting control (ECO) breaks the power circuit to the heating element. Once the control opens, it must be reset manually
+
+**To reset the temperature limiting control:**
+1) Disconnect all power to unit before starting maintenance.
+2) Remove the upper cavity cover and insulation.
+3) Press the red RESET button.
+4) Replace the insulation, jacket access panel and plastic housing before turning on the power to the water heater. 
+
+CAUTION: The cause of the high temperature condition must be investigated by qualified service technician and corrective action must be taken before placing the water heater in service again.
+WARNING: If the water heater has been subjected to fire, flood or physical damage, disconnect all power to water heater, and DO NOT operate the water heater again until it has been checked by a qualified service technician. 
+NOTICE: DO NOT use this appliance if any part has been under water. Immediately call a qualified installer or service agency to replace a flooded water heater. DO NOT attempt to repair the unit! It must be replaced.
+
+Subtitle_3: Water Temperature Setting
+The temperature of the water in the water heater can be regulated by selecting the desired temperature on control display. Safety and energy conservation are factors to be considered when selecting the water temperature setting of the water heater. The lower the temperature setting, the greater the savings in energy and operating costs. To comply with safety regulations the temperature is factory set at 120°F (49°C) or less where local codes require. This is the recommended starting point. Water temperatures above 125°F (52°C) can cause severe burns or death from scalding. Be sure to read and follow the warnings outlined in this manual and on the label on the water heater. This label is located on the front of the water heater. Mixing valves are recommended for reducing point of use water temperature by mixing hot and cold water in branch water lines. It is recommended that a mixing valve complying with the Standard for Temperature Actuated Mixing Valves for Hot Water Distribution Systems, ASSE 1017 be installed. See page 3 for more details and contact a licensed plumber or the local plumbing authority for further information. When used in demand response applications a thermostatic mixing valve conforming to ASSE 1017 shall be installed on the hot water supply line following all manufacturer installation instructions. See page 32 for additional installation information. The chart on the page 3 may be used as a guide in determining the proper water temperature for your home.

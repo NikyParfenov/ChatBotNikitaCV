@@ -1,0 +1,26 @@
+TITLE: Care and cleaning of the water heater
+
+**Draining the Water Heater**
+In order to drain the water heater, turn off the cold water supply. Open a hot water faucet or lift the handle on the relief valve to admit air to the tank. Attach a garden hose to the drain valve on the water heater and direct the stream of water to a drain. Open the valve.
+
+CAUTION: Shut off power to the water heater before draining water.
+DANGER: Before manually operating the relief valve, make certain no one will be exposed to the hot water released by the valve. The water drained from the tank may be hot enough to present a scald hazard and should be directed to a suitable drain to prevent injury or damage.
+
+**Routine Preventative Maintenance**
+Properly maintained, your water heater will provide years of dependable trouble-free service. It is suggested that a routine preventive maintenance program be established and followed by the user. Most electrical appliances, even when new, make some sound when in operation. If the hissing or singing sound level increases excessively, Contact a qualified installer or plumbing contractor to inspect.
+IMPORTANT: See "DANGER on left". At least once a year, lift and release the lever handle on the temperature pressure relief valve, located on the side of the water heater, to make certain the valve operates freely. Allow several gallons to flush through the discharge line to an open drain.
+It is recommended to clean the filter on top of the heat pump when "Clean filter reminder" alert appears. Clean by washing with mild detergent and water. Dry and replace. Remove the filter by lifting up, then replace by lowering back into the filter slot on top of the unit. See Figure below. At least once a year pour a cup of bleach in the access opening of the condensate drain to kill any algae, mold, or mildew that has formed in the pipe. Ensure the condensate can flow freely; unclog if needed. A water heater’s tank can act as a setting basin for solids suspended in the water. It is therefore not uncommon for hard water deposits to accumulate in the bottom of the tank. It is suggested that a few quarts of water be drained from the water heater’s tank every month to clean the tank of these deposits.
+Rapid closing of faucets or solenoid valves in automatic water using appliances can cause a banging noise heard in a water pipe. Strategically located risers in the water pipe system or water hammer arresting devices can be used to minimize the problem.
+
+DANGER: Before manually operating the relief valve, make certain no one will be exposed to the danger of coming in contact with the hot water released by the valve. The water may be hot enough to create a scald hazard. The water should be released into a suitable drain to prevent injury or property damage. 
+NOTICE: If the temperature and pressure relief valve on the water heater discharges periodically, this may be due to thermal expansion in a closed water system. Contact the water supplier or your plumbing contractor on how to correct this. DO NOT plug the relief valve outlet.
+
+**Vacation and Extended Shut-Down**
+If the water heater is to remain idle for an extended period of time, the power and water to the appliance should be turned off to conserve energy and prevent a build-up of dangerous hydrogen gas. The water heater and piping should be drained if they might be subjected to freezing temperatures. After a long shut-down period, the water heater’s operation and controls should be checked by qualified service personnel. Make certain the water heater is completely filled again before placing it in operation.
+
+NOTICE: Refer to the Hydrogen Gas Caution in the Operating Instructions.
+
+**Anode Rod**
+This water heater is equipped with an anode rod designed to prolong the life of the glass-lined tank. The anode rod is slowly consumed, thereby eliminating or minimizing corrosion of the glasslined tank.Water sometimes contains a high sulfate and/or mineral content and together with cathodic protectionprocess can produce a hydrogen sulfide, or rotten egg odor in the heated water. Chlorination of the water supply should minimize the problem.
+
+NOTICE: DO NOT remove the anode rod from the water heater’s tank. Operation with the anode rod removed will greatly shorten the life of the glass lined tank and will exclude warranty coverage.
