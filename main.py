@@ -45,7 +45,7 @@ if __name__ == '__main__':
                        "4) Care and Clean device\n" \
                        "5) Local startup device\n" \
                        "6) Operating water heater\n" \
-                       "7) Triubleshooting tickets\n" \
+                       "7) Troubleshooting tickets\n" \
                        "\nHow can I help you?"
         await bot.send_message(message.chat.id, introduction)
         await bot.delete_message(message.chat.id, message.message_id)
