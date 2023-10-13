@@ -50,7 +50,7 @@ def service_endpoint(data: Data):
         "content": response,
     }
     database_action(action=DBActions.ADD_MESSAGE, **db_data)
-    return JSONResponse(content={'response': response})
+    return JSONResponse(content={'response': response, 'chat_id': data.chat_id})
 
 
 @app.post('/')
