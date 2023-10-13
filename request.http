@@ -1,4 +1,4 @@
-POST https://127.0.0.1:8080/api/upload-text/ HTTP/1.1
+POST https://ec2-3-67-177-126.eu-central-1.compute.amazonaws.com:8000/api/upload-text/ HTTP/1.1
 Content-Type: application/json
 
 {
