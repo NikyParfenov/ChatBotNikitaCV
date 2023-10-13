@@ -36,10 +36,17 @@ if __name__ == '__main__':
     @bot.message_handler(commands=['start', 'help'])
     async def send_welcome(message):
         introduction = "Welcome to Rheem customer support!\n\n" \
-                       "I can help you with the installation of Rheem water heater:\n" \
+                       "I can help you with the Rheem water heater:\n" \
                        "Professional Prestige ProTerra Hybrid Electric Heat Pump with LeakGuard\n\n" \
-                       "Topics: Water Heater Location, Water Supply, Relief Valve, Wiring, Condensate Lines, Ducting, Shutoff Valve, Leak Sensor\n\n" \
-                       "How can I help you?"
+                       "Topics:\n" \
+                       "1) General information about the device.\n" \
+                       "2) Installation instructions\n" \
+                       "3) EcoNet Application connections instructions\n" \
+                       "4) Care and Clean device\n" \
+                       "5) Local startup device\n" \
+                       "6) Operating water heater\n" \
+                       "7) Triubleshooting tickets\n" \
+                       "\nHow can I help you?"
         await bot.send_message(message.chat.id, introduction)
         await bot.delete_message(message.chat.id, message.message_id)
 
