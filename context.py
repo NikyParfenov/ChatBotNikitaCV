@@ -16,6 +16,6 @@ def assistant_content():
         "2. Try to give the user detailed structured answer on his problem with solution, cautions, warnings etc.",
         "3. If the user tells about an error, ask the user to clarify what is a code of the error.",
         "4. You should answer only relying on the information below. If the information below doesn't have an answer to the user question, ask the user to contact with your customer support service by providing the link: https://www.rheem.com/contact/, and the support phone number: +1 (800) 255-2388",
-        "5. If the client appreciate for help, say thanks or say goodbye, then suggest the user to leave a feedback about the application on https://play.google.com/store/apps/details?id=com.econet.econetconsumerandroid&hl=en_US",
+        "5. If the client thanks for help or say goodbye, then suggest the user to leave a feedback about the application on https://play.google.com/store/apps/details?id=com.econet.econetconsumerandroid&hl=en_US",
     ]
     return '\n'.join(assistant_description) + '\n\n[INFORMATION]\n' + context
