@@ -4,5 +4,5 @@ Don't forget update OPENAI_API_KEY в **.env**
 
 Run chatbot
 ```commandline
-docker-compose up --build
+docker-compose up --build -d
 ```
