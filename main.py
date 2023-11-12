@@ -15,8 +15,6 @@ from vectorization import doc_vectorization
 from context import assistant_content
 
 
-# https://t.me/nikitatesetcasebot
-
 if __name__ == '__main__':
 
     logs_customize()
