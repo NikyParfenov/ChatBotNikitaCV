@@ -2,8 +2,8 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 import models.db_models as db
 
-# engine = create_engine("postgresql+psycopg2://postgres:adminpostgres@postgresql:5432/ChatMessages")
-engine = create_engine("sqlite:///content.db")
+engine = create_engine("postgresql+psycopg2://postgres:adminpostgres@postgresql:5432/ChatMessages")
+# engine = create_engine("sqlite:///content.db")
 db.Base.metadata.create_all(bind=engine)  # Connection between Base class and the engine
 
 # Take care with expire_on_commit=False!
