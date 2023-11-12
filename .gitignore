@@ -3,6 +3,7 @@
 /tmp/
 /venv/
 .idea
+.env
 *.DS_Store
 *__pycache__/
 /content.db

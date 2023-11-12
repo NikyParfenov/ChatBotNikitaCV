@@ -1,16 +1,18 @@
 import openai
 from typing import List
-from utils.openai_wrapper import wrap_exception
+from utils.openai_wrapper import wrap_exception, dead_chat_wrapper
 from loguru import logger
 
 
 @logger.catch
+@dead_chat_wrapper
 @wrap_exception
 def gpt_completion(
         conversation: List[dict[str]],
         temp: float = 0.9,
         model: str = "gpt-3.5-turbo",  # "gpt-3.5-turbo-16k", "gpt-4"
         tokens: int = 512,
+        **kwargs,
 ) -> str:
 
     response = openai.ChatCompletion.create(

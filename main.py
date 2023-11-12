@@ -1,4 +1,5 @@
 import os
+import json
 import openai
 import asyncio
 import requests
@@ -94,17 +95,11 @@ if __name__ == '__main__':
     @logger.catch
     @bot.message_handler(func=lambda msg: True)
     async def echo_all(message):
-
-        # It's better to use Context window but for prototype let's put it in user msg
-        docs = docsearch.similarity_search_with_score(message.text, k=5)
-        docs_content = [f"[{i+1}] QUESTION: {doc[0].metadata['question']}; ANSWER: {doc[0].metadata['doc_content']}" for i, doc in enumerate(docs) if doc[1] < 0.47]
-        user_content = message.text + '\n\nDOCUMENTS:\n' + '\n'.join(docs_content)
-
         db_data = {
             "chat_id": message.chat.id,
             "message_id": message.message_id,
             "role": MessageRoles.USER,
-            "content": user_content,
+            "content": message.text,
         }
         database_action(action=DBActions.ADD_MESSAGE, **db_data)
 
@@ -114,14 +109,15 @@ if __name__ == '__main__':
         for msg in db_messages:
             msg_list.append(msg.to_openai())
 
-        # Load las user-assistant messages to take into account dependable questions.
-        # 5 steps history sometimes can exceed 4k tokens limit, so, wrap it in exception
-        try:
-            chat_context = [{"role": "system", "content": assistant_content()}, *msg_list[-5:]]
-            response = gpt_completion(conversation=chat_context)
-        except openai.error.InvalidRequestError:
-            chat_context = [{"role": "system", "content": assistant_content()}, *msg_list[-3:]]
-            response = gpt_completion(conversation=chat_context)
+        # Load last user-assistant messages to take into account dependable questions.
+        search_history = [item['content'] for item in msg_list if item['role'] == 'user'][-3:]
+        docs = docsearch.similarity_search_with_score(';'.join(search_history), k=10)
+        docs_content = [f"[{i + 1}] QUESTION: {doc[0].metadata['question']}; ANSWER: {doc[0].metadata['doc_content']}"
+                        for i, doc in enumerate(docs) if doc[1] < 0.47]
+        logger.info(f'Chat_id: {message.chat.id}; USERS PROMPTS: {search_history}, DOCS: {docs_content}')
+
+        chat_context = [{"role": "system", "content": assistant_content(docs_content)}, *msg_list[-5:]]
+        response = gpt_completion(conversation=chat_context, chat_id=message.chat.id)
         output_message = await bot.send_message(message.chat.id, text=response)
 
         db_data = {
