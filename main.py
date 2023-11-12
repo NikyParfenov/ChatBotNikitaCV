@@ -113,7 +113,8 @@ if __name__ == '__main__':
         docs = docsearch.similarity_search_with_score(';'.join(search_history), k=10)
         docs_content = [f"[{i + 1}] QUESTION: {doc[0].metadata['question']}; ANSWER: {doc[0].metadata['doc_content']}"
                         for i, doc in enumerate(docs) if doc[1] < 0.47]
-        logger.info(f'Chat_id: {message.chat.id}; USERS PROMPTS: {search_history}, DOCS: {docs_content}')
+        logger.info(f"Chat_id: {message.chat.id}; USERS PROMPTS: {search_history}, "
+                    f"DOCS: {str([(doc[0].metadata['section'], doc[0].metadata['question']) for doc in docs if doc[1] < 0.47])}")
 
         chat_context = [{"role": "system", "content": assistant_content(docs_content)}, *msg_list[-5:]]
         response = gpt_completion(conversation=chat_context, chat_id=message.chat.id)
