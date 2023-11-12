@@ -11,10 +11,11 @@ from utils.logs_customize import logs_customize
 from db_scripts import DBActions, database_action
 from models.openai_models import gpt_completion, whisper_transcribe
 from models.db_models import MessageRoles
+from vectorization import doc_vectorization
 from context import assistant_content
 
 
-# https://t.me/RheemCSbot
+# https://t.me/nikitatesetcasebot
 
 if __name__ == '__main__':
 
@@ -27,6 +28,7 @@ if __name__ == '__main__':
     apihelper.SESSION_TIME_TO_LIVE = 60 * 5
     openai.api_key = os.environ.get('OPENAI_API_KEY')
     telegram_token = os.environ.get('TELEBOT_TOKEN')
+    docsearch = doc_vectorization(token=openai.api_key)
     bot = AsyncTeleBot(telegram_token)
 
     def extract_arg(arg):
@@ -35,18 +37,9 @@ if __name__ == '__main__':
     @logger.catch
     @bot.message_handler(commands=['start', 'help'])
     async def send_welcome(message):
-        introduction = "Welcome to Rheem customer support!\n\n" \
-                       "I can help you with the Rheem water heater:\n" \
-                       "Professional Prestige ProTerra Hybrid Electric Heat Pump with LeakGuard\n\n" \
-                       "Topics:\n" \
-                       "1) General information about the device.\n" \
-                       "2) Installation instructions\n" \
-                       "3) EcoNet Application connections instructions\n" \
-                       "4) Care and Clean device\n" \
-                       "5) Local startup device\n" \
-                       "6) Operating water heater\n" \
-                       "7) Troubleshooting tickets\n" \
-                       "\nHow can I help you?"
+        introduction = "Добро пожаловать в Альфа-банк FAQ!\n\n" \
+                       "Я могу помочь вам ответить на вопросы о кредитных и дебетовых картах, кредитах наличными или Алфа-Мобайл.\n" \
+                       "Вы можете задавать вопросы как текстом, так и голосом."
         await bot.send_message(message.chat.id, introduction)
         await bot.delete_message(message.chat.id, message.message_id)
 
@@ -76,18 +69,6 @@ if __name__ == '__main__':
         for text in splitted_text:
             await bot.send_message(message.chat.id, text=f'MESSAGES:\n{text}')
 
-
-    @logger.catch
-    @bot.message_handler(commands=['help_dev'])
-    async def helper(message):
-        instructions = "Input can be a text, audio or voice (mp3, mp4, mpeg, mpga, m4a, wav, webm)\n\n" \
-                       "Commands:\n" \
-                       "/help_dev - show commands\n" \
-                       "/get_chats - show chats\n" \
-                       "/get_chat_messages X - show messages of X chat_id"
-        await bot.reply_to(message, instructions)
-        
-
     @logger.catch
     @bot.message_handler(content_types=['audio', 'voice'])
     async def transcribe_audio(message):
@@ -113,28 +94,35 @@ if __name__ == '__main__':
     @logger.catch
     @bot.message_handler(func=lambda msg: True)
     async def echo_all(message):
+
+        # It's better to use Context window but for prototype let's put it in user msg
+        docs = docsearch.similarity_search_with_score(message.text, k=5)
+        docs_content = [f"[{i+1}] QUESTION: {doc[0].metadata['question']}; ANSWER: {doc[0].metadata['doc_content']}" for i, doc in enumerate(docs) if doc[1] < 0.47]
+        user_content = message.text + '\n\nDOCUMENTS:\n' + '\n'.join(docs_content)
+
         db_data = {
             "chat_id": message.chat.id,
             "message_id": message.message_id,
             "role": MessageRoles.USER,
-            "content": message.text,
+            "content": user_content,
         }
         database_action(action=DBActions.ADD_MESSAGE, **db_data)
 
-        if message.text.startswith('/'):
-            response = 'Unknown command'
-            output_message = await bot.reply_to(message, response)
-        else:
-            await bot.send_chat_action(message.chat.id, 'typing')
+        await bot.send_chat_action(message.chat.id, 'typing')
+        db_messages = database_action(action=DBActions.GET_MESSAGES, chat_id=message.chat.id)
+        msg_list = []
+        for msg in db_messages:
+            msg_list.append(msg.to_openai())
 
-            db_messages = database_action(action=DBActions.GET_MESSAGES, chat_id=message.chat.id)
-            msg_list = []
-            for msg in db_messages:
-                msg_list.append(msg.to_openai())
-
+        # Load las user-assistant messages to take into account dependable questions.
+        # 5 steps history sometimes can exceed 4k tokens limit, so, wrap it in exception
+        try:
+            chat_context = [{"role": "system", "content": assistant_content()}, *msg_list[-5:]]
+            response = gpt_completion(conversation=chat_context)
+        except openai.error.InvalidRequestError:
             chat_context = [{"role": "system", "content": assistant_content()}, *msg_list[-3:]]
             response = gpt_completion(conversation=chat_context)
-            output_message = await bot.send_message(message.chat.id, text=response)
+        output_message = await bot.send_message(message.chat.id, text=response)
 
         db_data = {
             "chat_id": message.chat.id,

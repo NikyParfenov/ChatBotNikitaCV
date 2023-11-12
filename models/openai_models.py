@@ -1,14 +1,16 @@
 import openai
 from typing import List
 from utils.openai_wrapper import wrap_exception
+from loguru import logger
 
 
+@logger.catch
 @wrap_exception
 def gpt_completion(
         conversation: List[dict[str]],
         temp: float = 0.9,
-        model: str = "gpt-3.5-turbo-16k",  # "gpt-3.5-turbo", "gpt-4"
-        tokens: int = 1536,
+        model: str = "gpt-3.5-turbo",  # "gpt-3.5-turbo-16k", "gpt-4"
+        tokens: int = 512,
 ) -> str:
 
     response = openai.ChatCompletion.create(
@@ -20,6 +22,7 @@ def gpt_completion(
 
     return response['choices'][0]['message']['content']
 
+@logger.catch
 @wrap_exception
 def whisper_transcribe(
         audio_file_path: str,

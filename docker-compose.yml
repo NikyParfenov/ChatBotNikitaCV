@@ -8,7 +8,7 @@ services:
     environment:
       - POSTGRES_PASSWORD=adminpostgres
       - POSTGRES_USER=postgres
-      - POSTGRES_DB=RheemCSmessages
+      - POSTGRES_DB=ChatMessages
     ports:
       - "5432:5432"
     healthcheck:
@@ -26,21 +26,10 @@ services:
      volumes:
        - .:/usr/src
      ports:
-       - "8001:8000"
+       - "8000:8000"
      depends_on:
        postgresql:
          condition: service_healthy
-
-  endpoint:
-    build:
-       context: .
-       dockerfile: ./Dockerfile
-    command: >
-      uvicorn endpoint:app --port 8000 --host 0.0.0.0 --reload
-    volumes:
-      - .:/usr/src
-    ports:
-      - "8000:8000"
 
 volumes:
   postgres_vol:
